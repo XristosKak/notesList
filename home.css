@@ -1,0 +1,63 @@
+
+
+.hellobar{
+     background-color: #eee;
+     width: 100%;
+     color: #000000;
+
+
+}
+
+.hellouser{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.hellouser2{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+ul li {
+  cursor: pointer;
+  position: static;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.mediafile_path_name{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .hellouser{
+        font-weight: 500;
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .hellouser2{
+        font-weight: 400;
+        font-size: 18px;
+    }
+  }
+
